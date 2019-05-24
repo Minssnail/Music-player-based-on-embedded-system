@@ -1,0 +1,14 @@
+..\OBJ\test.o: test.c
+..\OBJ\test.o: ..\SYSTEM\sys\sys.h
+..\OBJ\test.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\test.o: ..\SYSTEM\sys\core_cm3.h
+..\OBJ\test.o: D:\keli\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\test.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\test.o: ..\SYSTEM\delay\delay.h
+..\OBJ\test.o: ..\SYSTEM\usart\usart.h
+..\OBJ\test.o: D:\keli\ARM\ARMCC\bin\..\include\stdio.h
+..\OBJ\test.o: ..\HARDWARE\LED\led.h
+..\OBJ\test.o: ..\HARDWARE\LCD\lcd.h
+..\OBJ\test.o: D:\keli\ARM\ARMCC\bin\..\include\stdlib.h
+..\OBJ\test.o: ..\HARDWARE\ADC\adc.h
+..\OBJ\test.o: ..\HARDWARE\LSENS\lsens.h

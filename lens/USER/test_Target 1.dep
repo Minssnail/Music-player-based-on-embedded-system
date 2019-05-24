@@ -1,0 +1,74 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x54B0B2F0)(--cpu Cortex-M3 -g --apcs=interwork -I D:\keli\ARM\RV31\INC -I D:\keli\ARM\CMSIS\Include --list "..\OBJ\startup_stm32f10x_hd.lst" --xref -o "..\OBJ\startup_stm32f10x_hd.o" --depend "..\OBJ\startup_stm32f10x_hd.d")
+F (.\test.c)(0x550D83AE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\USMART -I D:\keli\ARM\RV31\INC -I D:\keli\ARM\CMSIS\Include -DSTM32F10X_HD -o "..\OBJ\test.o" --omf_browse "..\OBJ\test.crf" --depend "..\OBJ\test.d")
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F2)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\HARDWARE\LED\led.h)(0x54B135E8)
+I (..\HARDWARE\LCD\lcd.h)(0x553B4B7C)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\HARDWARE\ADC\adc.h)(0x54F01904)
+I (..\HARDWARE\LSENS\lsens.h)(0x54B64F3E)
+F (..\SYSTEM\delay\delay.c)(0x555AC5E2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\USMART -I D:\keli\ARM\RV31\INC -I D:\keli\ARM\CMSIS\Include -DSTM32F10X_HD -o "..\OBJ\delay.o" --omf_browse "..\OBJ\delay.crf" --depend "..\OBJ\delay.d")
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x550EB962)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\USMART -I D:\keli\ARM\RV31\INC -I D:\keli\ARM\CMSIS\Include -DSTM32F10X_HD -o "..\OBJ\sys.o" --omf_browse "..\OBJ\sys.crf" --depend "..\OBJ\sys.d")
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x550EB9F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\USMART -I D:\keli\ARM\RV31\INC -I D:\keli\ARM\CMSIS\Include -DSTM32F10X_HD -o "..\OBJ\usart.o" --omf_browse "..\OBJ\usart.crf" --depend "..\OBJ\usart.d")
+I (..\SYSTEM\usart\usart.h)(0x550EB9F2)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\HARDWARE\LED\led.c)(0x54B135F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\USMART -I D:\keli\ARM\RV31\INC -I D:\keli\ARM\CMSIS\Include -DSTM32F10X_HD -o "..\OBJ\led.o" --omf_browse "..\OBJ\led.crf" --depend "..\OBJ\led.d")
+I (..\HARDWARE\LED\led.h)(0x54B135E8)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\HARDWARE\LCD\ILI93xx.c)(0x553B4B6C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\USMART -I D:\keli\ARM\RV31\INC -I D:\keli\ARM\CMSIS\Include -DSTM32F10X_HD -o "..\OBJ\ili93xx.o" --omf_browse "..\OBJ\ili93xx.crf" --depend "..\OBJ\ili93xx.d")
+I (..\HARDWARE\LCD\lcd.h)(0x553B4B7C)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\HARDWARE\LCD\font.h)(0x547B07F6)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F2)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+F (..\HARDWARE\ADC\adc.c)(0x5CCE55B3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\USMART -I D:\keli\ARM\RV31\INC -I D:\keli\ARM\CMSIS\Include -DSTM32F10X_HD -o "..\OBJ\adc.o" --omf_browse "..\OBJ\adc.crf" --depend "..\OBJ\adc.d")
+I (..\HARDWARE\ADC\adc.h)(0x54F01904)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+F (..\HARDWARE\LSENS\lsens.c)(0x5CCE45B7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\USMART -I D:\keli\ARM\RV31\INC -I D:\keli\ARM\CMSIS\Include -DSTM32F10X_HD -o "..\OBJ\lsens.o" --omf_browse "..\OBJ\lsens.crf" --depend "..\OBJ\lsens.d")
+I (..\HARDWARE\LSENS\lsens.h)(0x54B64F3E)
+I (..\SYSTEM\sys\sys.h)(0x550EC368)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keli\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\ADC\adc.h)(0x54F01904)
+I (..\SYSTEM\delay\delay.h)(0x555AC620)
+F (..\README.TXT)(0x54B7466C)()
